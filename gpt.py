@@ -149,6 +149,7 @@ class Block(nn.Module):
 
 
 class GPTLanguageModel(nn.Module):
+    """ Super simple language model """
 
     def __init__(self):
         super().__init__()
